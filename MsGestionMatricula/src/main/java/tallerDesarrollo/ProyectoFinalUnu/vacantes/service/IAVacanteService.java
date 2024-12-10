@@ -1,5 +1,7 @@
 package main.java.tallerDesarrollo.ProyectoFinalUnu.vacantes.service;
 
-public class iaVacanteService {
+import java.util.List;
+
+public class IAVacanteService {
     
 }

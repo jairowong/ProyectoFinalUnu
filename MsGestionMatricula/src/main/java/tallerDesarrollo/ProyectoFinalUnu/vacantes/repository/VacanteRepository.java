@@ -1,5 +1,9 @@
 package main.java.tallerDesarrollo.ProyectoFinalUnu.vacantes.repository;
 
-public class VacanteRepository {
+
+
+public interface VacanteRepository extends CrudRepository<Vacante,Integer>{
+
+    
     
 }
