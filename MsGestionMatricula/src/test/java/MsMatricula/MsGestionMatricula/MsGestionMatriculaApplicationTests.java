@@ -1,4 +1,4 @@
-package TallerDesarrollo2024.MsGestionMatricula;
+package MsMatricula.MsGestionMatricula;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
