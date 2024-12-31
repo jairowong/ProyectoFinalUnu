@@ -12,22 +12,45 @@ public class PagoModel {
     @Column(name="id_pago")
     private int idPago;
     
-    @Column(name="id_alumno")
-    private int idAlumno;
+    @Column(name="id_matricula")
+    private integer idMatricula;
     
     @Column(name="fecha_pago")
-    private Date fechaPago;
+    private Date fechaMatr;
     
-    @Column(name="monto_pago")
     private double montoPago;
-    
-    public PagoModel() {
-        
+
+    public int getIdPago() {        
+        return idPago;
+    }
+
+    public void setIdPago(int idPago) {
+        this.idPago = idPago;
+    }        
+
+    public int getIdMatricula() {
+        return idMatricula;
+    }        
+
+    public void setIdMatricula(int idMatricula) {
+        this.idMatricula = idMatricula;
+    }        
+
+    public Date getFechaMatr() {
+        return fechaMatr;
+    }
+
+    public void setFechaMatr(Date fechaMatr) {
+        this.fechaMatr = fechaMatr;
+    }
+
+    public double getMontoPago() {
+        return montoPago;
+    }
+
+    public void setMontoPago(double montoPago) {
+        this.montoPago = montoPago;
     }
     
-    public PagoModel(int idAlumno, Date fechaPago, double montoPago) {
-        this.idAlumno = idAlumno;
-        this.fechaPago = fechaPago;
-        this.montoPago = montoPago;
-
+    
 }
