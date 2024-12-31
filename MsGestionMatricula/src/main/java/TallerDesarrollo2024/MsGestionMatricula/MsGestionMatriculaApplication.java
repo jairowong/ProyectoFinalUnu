@@ -1,13 +1,13 @@
-package tallerDesarrollo.ProyectoFinalUnu;
+package TallerDesarrollo2024.MsGestionMatricula;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoFinalUnuApplication {
+public class MsGestionMatriculaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoFinalUnuApplication.class, args);
+		SpringApplication.run(MsGestionMatriculaApplication.class, args);
 	}
 
 }
