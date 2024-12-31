@@ -1,10 +1,10 @@
-package MsMatricula.MsGestionMatricula;
+package MsMatri.GestionMatri;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsGestionMatriculaApplicationTests {
+class GestionMatriApplicationTests {
 
 	@Test
 	void contextLoads() {

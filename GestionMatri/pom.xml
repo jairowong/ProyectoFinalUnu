@@ -8,11 +8,11 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>MsMatricula</groupId>
-	<artifactId>MsGestionMatricula</artifactId>
+	<groupId>MsMatri</groupId>
+	<artifactId>GestionMatri</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MsGestionMatricula</name>
-	<description>trabajoGrupal</description>
+	<name>GestionMatri</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
