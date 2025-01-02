@@ -1,13 +1,13 @@
-package tallerDesarrollo.ProyectoFinalUnu;
+package MsMatri.GestionMatri;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoFinalUnuApplication {
+public class GestionMatriApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoFinalUnuApplication.class, args);
+		SpringApplication.run(GestionMatriApplication.class, args);
 	}
 
 }
